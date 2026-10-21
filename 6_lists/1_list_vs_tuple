@@ -1,0 +1,10 @@
+a = [10,20,30] # This is list --> Mutable
+print(a)
+print(a[0])
+print(a[0:3:2])
+
+a[0] = 11
+print(a, "\n")
+
+b = 10,20,30 # This is tuple --> Immutable
+print(b)
